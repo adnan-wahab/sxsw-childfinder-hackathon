@@ -12,7 +12,9 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;language=en" type="text/javascript"></script>
 
     
-<script defer src="adnan.js"> </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <script defer src="adnan.js"> </script>
 </head>
 
 <body>
@@ -20,7 +22,18 @@
         <svg width="960px" height="260px"></svg>
         
         <!-- "uk-table uk-table-striped uk-table-small" -->
+<script type="text/javascript">
+$(document).ready(function() {
+  $(".js-example-basic-single").select2();
+});
+</script>
 
+<select class="js-example-basic-single">
+  <option value="AL">Alabama</option>
+    ...
+  <option value="WY">Wyoming</option>
+</select>
+        
         <form class="uk-search uk-search-large ">
             <span class="uk-search-icon"></span>
             <input class="uk-search-input" type="search" placeholder="Search...">
