@@ -1,0 +1,30 @@
+th:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    font-weight: normal;
+    font-style: normal;
+    src:
+    url('/ProximaNova-Reg-webfont.woff') format('woff'),
+    url('/ProximaNova-Reg-webfont.ttf') format('truetype');
+}
+
+.container {
+    background: aliceblue;
+}
+
+path {
+    fill: #333;
+    stroke: white;
+    
+}
+
+::-webkit-input-placeholder { color:#f00; }
+::-moz-placeholder { color:#f00; } /* firefox 19+ */
+:-ms-input-placeholder { color:#f00; } /* ie */
+input:-moz-placeholder { color:#f00; }
+
+

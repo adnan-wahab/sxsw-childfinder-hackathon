@@ -3,11 +3,30 @@
 <head>
     <script src="https://d3js.org/d3.v4.js"> </script>
     <link rel="stylesheet" href="adnan.css">
-    <script src="adnan.js"> </script>
+    <link rel="stylesheet" href="theme.css">
+
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+
+    <script defer src="http://momentjs.com/downloads/moment.min.js"> </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;language=en" type="text/javascript"></script>
+
+    
+<script defer src="adnan.js"> </script>
 </head>
 
 <body>
-    <div class="container"></div>
+    <div class="container">
+        <svg width="960px" height="260px"></svg>
+        
+        <!-- "uk-table uk-table-striped uk-table-small" -->
 
-    
+        <form class="uk-search uk-search-large ">
+            <span class="uk-search-icon"></span>
+            <input class="uk-search-input" type="search" placeholder="Search...">
+        </form>
+        <table class="uk-table uk-table-hover uk-table-middle uk-table-striped">
+        </table>
+    </div>
+
 </body>
